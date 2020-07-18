@@ -1,0 +1,48 @@
+.container {
+    max-width: 1140px;
+    margin: 5px auto;
+    padding: 15px;
+    border: 1px solid green;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+form.registation div{
+    margin: 10px auto;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.control-input,
+.control-select,
+.button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="text"].control-input,
+.control-select {
+    min-width: 320px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+input[type="radio"].control-input {
+    width: 20px;
+}
+
+.button-fir {
+    background-color: greenyellow;
+    border-color: green;
+}
+
+.button-sec {
+    background-color: skyblue;
+}
