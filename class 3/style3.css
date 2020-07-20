@@ -40,7 +40,7 @@
 }
 
 .navbar ul li {
-    float:left;
+    float: left;
     padding: 15px 2.5%;
     border: 1px solid red;
     background: yellow;
@@ -51,7 +51,6 @@
     text-decoration: none;
     font-family: Arial;
 }
-
 
 .row-border {
     clear: both;
@@ -67,6 +66,26 @@
     float: left;
     width: 30%;
 }
+
+.dropdownarea {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownbtn {
+    color: red;
+    background-color: aquamarine;
+}
+
+.drowpdown-container {
+    display: none;
+    position: absolute;
+}
+
+.dropdownarea:hover .drowpdown-container {
+    display: block;
+}
+
 
 /*.head1 {
     border: 1px solid;
